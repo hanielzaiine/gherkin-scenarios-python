@@ -1,0 +1,15 @@
+@startuml
+floating note
+Feature: Postar foto no Instagram
+end note
+start
+if (Usuario logado) then (yes)
+:Quando eu tento postar a foto;
+:O usuário deverá ver"Sua foto foi publicada";
+else (no)
+:Quando eu tento postar a foto;
+:O usuario deverá ver "Você deve estar logado";
+:Sistema redireciona para a página de login;
+endif
+end
+@enduml

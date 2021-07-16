@@ -1,0 +1,10 @@
+@startuml
+floating note
+    Postar foto no Instagram
+end note
+start
+    :Dado que estou logado;
+    :Quando eu tento postar uma foto;
+    :Então devo ver "Sua foto foi publicada";
+end
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+floating note
+Funcionalidade: Transferir dinheiro
+end note
+start
+:Dado que usuario selecionou transferir dinheiro no menu;
+if (Conta existe e valor da transferência < saldo ?) then (Não)
+:Então Exibir transação inválida;
+else (Sim)
+:Então Debita valor do cliente e credita valor da transferência na conta do usuario;
+:E Exibe resumo da transação;
+endif
+stop
+@enduml
